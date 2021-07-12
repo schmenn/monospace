@@ -1,0 +1,11 @@
+body {
+	font-family: monospace;
+}
+
+div[class^="markup"] code.inline {
+	font-family: monospace;
+}
+
+div[class^="inputWrapper"] input[class^="inputDefault"] {
+	font-family: monospace;
+}
