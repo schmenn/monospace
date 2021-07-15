@@ -1,4 +1,17 @@
 //META{"name":"Monospace","description":"Simply changes the font to Monospace","author":"Schmenn","version":"0.1","website":"https://github.com/Schmenn/monospace"}*//{}
+
+/* 
 @import url('https://raw.githubusercontent.com/Schmenn/monospace/master/yes.css');
+*/
 
+body {
+	font-family: monospace;
+}
 
+div[class^="markup"] code.inline {
+	font-family: monospace;
+}
+
+div[class^="inputWrapper"] input[class^="inputDefault"] {
+	font-family: monospace;
+}
